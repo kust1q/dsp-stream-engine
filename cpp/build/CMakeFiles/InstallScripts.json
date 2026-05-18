@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kust1q/dev/GO/dsp-stream-engine/cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

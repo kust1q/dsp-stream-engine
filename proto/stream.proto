@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package stream;
+
+option go_package = "dsp-stream-engine/pkg/api/stream";
+
+service DSPStream {
+  // Bidirectional streaming of audio chunks
+  rpc ProcessAudio(stream AudioChunk) returns (stream AudioChunk);
+}
+
+message AudioChunk {
+  // Array of float32 samples.
+  // Using repeated float is inefficient for gRPC serialization due to varint overhead.
+  // Standard practice for audio is to pack float32 arrays into raw bytes.
+  bytes data = 1;
+}

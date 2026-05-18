@@ -1,0 +1,3 @@
+/home/kust1q/dev/GO/dsp-stream-engine/cpp/build/CMakeFiles/dsp.dir
+/home/kust1q/dev/GO/dsp-stream-engine/cpp/build/CMakeFiles/edit_cache.dir
+/home/kust1q/dev/GO/dsp-stream-engine/cpp/build/CMakeFiles/rebuild_cache.dir
