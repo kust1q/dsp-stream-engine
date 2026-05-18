@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdsp.a CMakeFiles/dsp.dir/dsp.cpp.o
-/usr/bin/ranlib libdsp.a
